@@ -1,6 +1,6 @@
 # festember_thoongaavanam
 Database name : thoongavanam  
-DATABASE SCHEMA 
+DATABASE SCHEMA  
 Table name : details  
 COULMNS :  
 ->id (bigint , autoincrement)  
