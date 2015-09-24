@@ -38,31 +38,7 @@ else $err="One or more fields are empty.";
 <head>
 	<title>LOGIN</title>
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Chewy">
-	<style type="text/css">
-	a{ text-decoration: none;
-		color: white;
-		font-size: 1.5em;
-		padding: 1em;
-		background: rgba(0,0,0,0.6);
-	}
-  html{
-     font-family: 'Chewy';
-	    background: url(fest15.jpg);
-	    background-repeat: no-repeat;
-	    background-position:  center; 
-	    background-attachment: fixed;
-	    }
-	
-	fieldset{
-		background: rgba(0,0,0,0.9);
-		color: white;
-		border-radius: 1em;
-	}    
-legend{color: white;
-    background:rgba(0,0,0,0.6);
-}
-	</style>
-
+	    <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
 <div>

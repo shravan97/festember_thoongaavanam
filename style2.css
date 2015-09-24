@@ -1,0 +1,22 @@
+a{ text-decoration: none;
+		color: white;
+		font-size: 1.5em;
+		padding: 1em;
+		background: rgba(0,0,0,0.6);
+	}
+  html{
+     font-family: 'Chewy';
+	    background: url(fest15.jpg);
+	    background-repeat: no-repeat;
+	    background-position:  center; 
+	    background-attachment: fixed;
+	    }
+	
+	fieldset{
+		background: rgba(0,0,0,0.9);
+		color: white;
+		border-radius: 1em;
+	}    
+legend{color: white;
+    background:rgba(0,0,0,0.6);
+}

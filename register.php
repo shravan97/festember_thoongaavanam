@@ -66,35 +66,7 @@ if(isset($_REQUEST['btn_sub'])){
 <head>
 	<title>REGISTER!</title>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Chewy">
-<style type="text/css">
-	.error{
-		color: red;
-		font-weight: bold;
-	}
-	body{
-		font-family: 'Chewy';
-	    background: url(fest15.jpg);
-	    background-repeat: no-repeat;
-	    background-position: center;
-	}
-	a{ text-decoration: none;
-		color: white;
-		font-size: 1.5em;
-		padding: 1em;
-		background: rgba(0,0,0,0.6);
-	}
-	table{
-		border: 1px solid blue;
-		margin:auto;
-		padding: 1em;
-		border-radius: 0.5em;
-		color: white;
-		background: rgba(0,0,0,0.6);
-	}
-	td{
-		padding: 0.5em;
-	}
-</style><!-- coll name , -->
+<link rel="stylesheet" type="text/css" href="style3.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>	
 </head>
 <body>

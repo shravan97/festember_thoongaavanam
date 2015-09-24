@@ -1,0 +1,20 @@
+html{
+    	background: url(/thoongavanam/fest15.jpg);
+    	background-repeat: no-repeat;
+    	background-position: center center;
+        background-attachment: fixed;	
+    	font-family: 'Chewy';
+    	font-size: 2em;
+    	color: red;
+    }
+    form{
+    	background-color: rgba(0,0,0,0.7);
+    }
+    a{
+    	text-decoration: none;
+    	color: white;
+    }   
+    #submission{
+    	color: white;
+    	background: ;
+    }

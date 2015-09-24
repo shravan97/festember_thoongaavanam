@@ -35,28 +35,7 @@ if(isset($_POST['btn_sub'])){
 <head>
 	<title>Upload</title>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Chewy">
-    <style type="text/css">
-    html{
-    	background: url(/thoongavanam/fest15.jpg);
-    	background-repeat: no-repeat;
-    	background-position: center center;
-        background-attachment: fixed;	
-    	font-family: 'Chewy';
-    	font-size: 2em;
-    	color: red;
-    }
-    form{
-    	background-color: rgba(0,0,0,0.7);
-    }
-    a{
-    	text-decoration: none;
-    	color: white;
-    }   
-    #submission{
-    	color: white;
-    	background: ;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style4.css">
 </head>
 <body>
 
