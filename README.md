@@ -21,8 +21,8 @@ create table details(id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY , name varcha
   
   
 The line ``` $h = mysqli_connect(); ``` will  
-have to be changed in login.php , register.php  
-and upload.php
+have to be changed according to the MYSQL host ,   in the pages login.php , register.php    
+and upload.php  
 
   
 
