@@ -3,7 +3,7 @@ Database name : thoongavanam
 DATABASE SCHEMA  
 Table name : details  
 COULMNS :  
-->id (bigint , autoincrement)  
+->id (bigint , primary key , autoincrement)  
 ->name (varchar(100))  
 ->dob (date)  
 ->city (varchar(100))  
