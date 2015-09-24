@@ -45,15 +45,16 @@ else $err="One or more fields are empty.";
 		padding: 1em;
 		background: rgba(0,0,0,0.6);
 	}
-  body{
+  html{
      font-family: 'Chewy';
 	    background: url(fest15.jpg);
 	    background-repeat: no-repeat;
 	    background-position:  center; 
+	    background-attachment: fixed;
 	    }
 	
 	fieldset{
-		background: rgba(0,0,0,0.6);
+		background: rgba(0,0,0,0.9);
 		color: white;
 		border-radius: 1em;
 	}    

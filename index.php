@@ -50,13 +50,14 @@ background-color: rgba(0,0,0,0.7);
       }
       .design{
         position: relative;
-        top:5em;
+        top:6em;
         left: 2.5em;
         color: white;
         font-weight: bold;
         font-family: 'Titillium Web';
         font-size: 2.4em;
          background: rgba(0,0,0,0.9);
+         
          border: 1px solid white;
          border-radius: 0.4em;
          width: 30em; 
@@ -81,6 +82,18 @@ background-color: rgba(0,0,0,0.7);
        /* background-image: linear-gradient(left,rgba(0,0,0,0.9),white);/* for IE */ 
       
      /*}  */
+     #kamal{
+      width: 4em;
+      height: 4em;
+      border-radius: 2em;
+      border-radius: 1px solid white;
+     }
+     #un{
+      font-family: 'Titillium Web';
+      font-weight: bold;
+      font-size: 1em;
+      background: rgba(0,0,0,0.5);
+     }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -97,14 +110,15 @@ background-color: rgba(0,0,0,0.7);
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
    <ul class="nav navbar-nav">
-<li id="nav1"cclass="active" onclick="toggle_nav(1);"><a href="#">Home</a></li> 
+<li id="nav1" class="active" onclick="toggle_nav(1);"><a href="#">Home</a></li> 
 <li id="nav2" class="inactive" onclick="toggle_nav(2);"><a href="#rules">Rules</a></li>
 <li id="nav3" class="inactive" onclick="toggle_nav(3);"><a href="#contacts">Contacts</a></li> 
 <?php if(!isset($_SESSION['user_design']))echo "<li id='login'><a href='login.php'>Login</a></li>
                                        <li id='register'><a href='register.php'>Register</a></li>"; ?>
 <li id="upload"><a href="upload.php">Upload</a></li>
+
 <?php if(isset($_SESSION['user_design'])) echo "<li><a href='index.php?logout=1'>Logout</a></li>
-<li style='margin-right:0px;'> Welcome ".$_SESSION['user_design']." </li>"; ?>
+<li class='text-center' style='padding-left:4em;padding-top:0.5em;'> Welcome ".$_SESSION['user_design']." </li>"; ?>
   </ul>
   </div>
  </nav> 
@@ -112,6 +126,10 @@ background-color: rgba(0,0,0,0.7);
 <br/><br/><br/><br/>
 <div id="move">
 <marquee> <span id='moving_text'>Thoongavanam Poster Design !!</span></marquee>
+</div>
+<div id="un" class="text-center">
+  <img id="kamal" src="kamal.jpeg">
+  Ulaga Nayagan , KAMAL HASAN
 </div>
 <div class="design">
 Designers  &nbsp; attention!  <br/>   Channel  your  love  for  cinema and design and<br/> 
@@ -137,7 +155,7 @@ create a spell-binding poster for the most-awaited movie of the decade,
   </ol>
   <p>&nbsp;</p>
   <p>&nbsp;</p><p>Link to the images : </p>
-  <p><a style="color:white;" href="https://drive.google.com/folderview?id=0B_qdVHOmsSiLU2tLUHJSRXoxZm8&usp=sharing" target="_blank">https://drive.google.com/folderview?id=0B_qdVHOmsSiLU2tLUHJSRXoxZm8&amp;usp=sharing</a></p>
+  <p><a style="color:white;" href="https://drive.google.com/folderview?id=0B_qdVHOmsSiLU2tLUHJSRXoxZm8&usp=sharing" target="_blank">Click Here</a></p>
 </div>
 <br/>
 <div id="contacts">

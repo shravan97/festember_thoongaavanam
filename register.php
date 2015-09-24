@@ -86,10 +86,13 @@ if(isset($_REQUEST['btn_sub'])){
 	table{
 		border: 1px solid blue;
 		margin:auto;
-		padding: 0.7em;
+		padding: 1em;
 		border-radius: 0.5em;
 		color: white;
 		background: rgba(0,0,0,0.6);
+	}
+	td{
+		padding: 0.5em;
 	}
 </style><!-- coll name , -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>	
@@ -122,31 +125,31 @@ if(isset($_REQUEST['btn_sub'])){
 	</tr>
 	<tr>
 		<td>DATE OF BIRTH : </td>
-		<td><input type="date" name="dob">
+		<td><input type="date" name="dob" required>
 		     <span class="error"><?php if(isset($err_date))echo $err_date;?></span>
 		</td>
 	</tr>
 	<tr>
 		<td>CITY : </td>
-		<td><input type="text" name="city">
+		<td><input type="text" name="city" required>
 		     <span class="error"><?php if(isset($err_city))echo $err_city;?></span>
 		</td>
 	</tr>
 	<tr>
 		<td>COLLEGE NAME : </td>
-		<td><input type="text" name="coll">
+		<td><input type="text" name="coll" required>
 		     <span class="error"><?php if(isset($err_coll))echo $err_coll;?></span>
 		</td>
 	</tr>
 	<tr>
 		<td>PHONE NUMBER : </td>
-		<td><input type="text" name="ph_no">
+		<td><input type="text" name="ph_no" required>
 		     <span class="error"><?php if(isset($err_ph_no))echo $err_ph_no;?></span>
 		</td>
 	</tr>
 	<tr>
 		<td>EMAIL : </td>
-		<td><input type="text" name="email">
+		<td><input type="text" name="email" required>
 		     <span class="error"><?php if(isset($err_email))echo $err_email;?></span>
 		</td>
 	</tr>

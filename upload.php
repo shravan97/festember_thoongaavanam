@@ -40,35 +40,40 @@ if(isset($_POST['btn_sub'])){
     	background: url(/thoongavanam/fest15.jpg);
     	background-repeat: no-repeat;
     	background-position: center center;
-    	
+        background-attachment: fixed;	
     	font-family: 'Chewy';
     	font-size: 2em;
     	color: red;
     }
-    *{
-    	background: rgba(0,0,0,0.6);
-    
+    form{
+    	background-color: rgba(0,0,0,0.7);
     }
     a{
     	text-decoration: none;
     	color: white;
     }   
+    #submission{
+    	color: white;
+    	background: ;
+    }
     </style>
 </head>
 <body>
-<div style="position:relative;top:0px;">
+
+<div style="background:rgba(0,0,0,0.7);">
 <a href="./">HOME</a>
 </div>
 <br/>	
-<div style="position:relative;top:10em;">
+<div style="position:relative;top:5em;">
 <?php if(isset($arr_chck)){
 	  if($arr_chck['uploaded']=='yes')
 	  	echo "<!--";
 	} ?>
 <form method="post" action="upload.php" enctype="multipart/form-data">
+UPLOAD HERE : <br/>
 <input type="file" name='img'>
 <br/>
-<input type="submit" name="btn_sub">
+<input id='submission' type="submit" name="btn_sub">
 </form>
 <?php if(isset($arr_chck)){
 	  if($arr_chck['uploaded']=='yes')
