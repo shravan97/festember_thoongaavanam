@@ -60,6 +60,7 @@ create a spell-binding poster for the most-awaited movie of the decade,
 
 </div >
 </div>
+<br/>
 <div id="rules">
 	<h2>RULES</h2>
   <hr/>
