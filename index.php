@@ -96,7 +96,7 @@ create a spell-binding poster for the most-awaited movie of the decade,
 window.onresize = fit;
 	function fit () {
 		// body...
-    var p=$(window).height();
+    var p=$(window).height() + 40;
     var k = $(document).width();
       document.getElementById('open').style.width = k + 'px';
       document.getElementById('open').style.height = p +'px';
