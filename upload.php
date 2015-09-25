@@ -34,7 +34,7 @@ if(isset($_POST['btn_sub'])){
 <html>
 <head>
 	<title>Upload</title>
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Chewy">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chewy">
     <link rel="stylesheet" type="text/css" href="style4.css">
 </head>
 <body>
