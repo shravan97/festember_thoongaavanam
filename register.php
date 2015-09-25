@@ -65,7 +65,7 @@ if(isset($_REQUEST['btn_sub'])){
 <html>
 <head>
 	<title>REGISTER!</title>
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Chewy">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chewy">
 <link rel="stylesheet" type="text/css" href="style3.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>	
 </head>
