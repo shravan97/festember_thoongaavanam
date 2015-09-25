@@ -96,7 +96,7 @@ window.onresize = fit;
 	function fit () {
 		// body...
     var p=$(window).height();
-    var k = $(window).width();
+    var k = $(document).width();
       document.getElementById('open').style.width = k + 'px';
       document.getElementById('open').style.height = p +'px';
       document.getElementById('rules').style.width = k + 'px';
