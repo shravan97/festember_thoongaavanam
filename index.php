@@ -95,14 +95,15 @@ create a spell-binding poster for the most-awaited movie of the decade,
 window.onresize = fit;
 	function fit () {
 		// body...
-		var p=window.outerHeight;
-      document.getElementById('open').style.width = window.outerWidth + 'px';
-      document.getElementById('open').style.height = p + 'px';
-      document.getElementById('rules').style.width = window.outerWidth + 'px';
+    var p=$(window).height();
+    var k = $(window).width();
+      document.getElementById('open').style.width = k + 'px';
+      document.getElementById('open').style.height = p +'px';
+      document.getElementById('rules').style.width = k + 'px';
       document.getElementById('rules').style.height = p + 'px';
-      document.getElementById('contacts').style.width = window.outerWidth + 'px';
+      document.getElementById('contacts').style.width = k + 'px';
       document.getElementById('contacts').style.height =p + 'px';
-       
+     
 	}
 window.onscroll = change;
 function change(){
