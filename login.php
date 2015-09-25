@@ -37,7 +37,7 @@ else $err="One or more fields are empty.";
 <html>
 <head>
 	<title>LOGIN</title>
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Chewy">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chewy">
 	    <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
